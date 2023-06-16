@@ -3,9 +3,9 @@ services:
   runner:
     image: tcardonne/github-runner:latest
     environment:
-      RUNNER_NAME: "SDNCorp Runner"
-      RUNNER_REPOSITORY_URL: "https://github.com/santi28/gha-selfhosted-runner"
-      RUNNER_LABELS: "sdn-label1"
+      RUNNER_NAME: "Blabell Staging Runner Agent"
+      RUNNER_REPOSITORY_URL: "https://github.com/Blabell-Technologies/runner"
+      RUNNER_LABELS: "blabell-stg"
       RUNNER_TOKEN: $RUNNER_TOKEN
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
